@@ -3,15 +3,9 @@ import torch.nn as nn
 import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 from torch.autograd import Variable
-import pandas as pd
-import numpy as np
 from scipy.misc import imread, imresize, imsave
 from torch.utils.data import Dataset, DataLoader
-import random
-import math
-import matplotlib
-import matplotlib.pyplot as plt
-# % matplotlib inline
+
 
 
 class CNN(nn.Module):
